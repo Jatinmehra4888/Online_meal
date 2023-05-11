@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   /* box-sizing: border-box; */
+   /* overflow-x: hidden; */
+}
+body{
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.container {
+  /* background: #eee; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  /* min-height: 100vh; */
+
+  width: 90%;
+
+  padding: 10px 60px;  
+  min-height: 55vh;
+  width: 97vw;
+  overflow-x: hidden;
+}
+.container .swiper-container{
+  width: 100%;
+  height: 100%;
+}
+.container .swiper-slide {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 15px;
+  text-align: start;
+  box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+ 
+}
+.container .swiper-slide img{
+   display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.container .swiper-slide .card-description{
+    padding:1rem 1rem;
+}
+.container .swiper-slide .card-title,.container .swiper-slide .card-text{
+   margin-bottom: .5rem;
+}
+.container .swiper-slide .card-link{
+   text-align: center;
+  
+}
+.container .swiper-slide .card-link a{
+    text-decoration: none;
+    color:  #0B2447;
+}
+.swiper-button-next{
+    right: 26px !important;
+}
+.swiper-button-prev{
+    left: 26px !important;
+}
+#stext h1{
+  font-size: 1.2m;
+  color: black;
+  
+}
+#location img {
+  padding: 4px;
+  margin: 4px; 
+  height: 40px;
+  width: 50px;
+ 
+}

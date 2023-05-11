@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Animation Effect</title>
+    <style>
+      /* CSS code for the image animation effect */
+      .animate-effect {
+        position: relative;
+        display: inline-block;
+      }
+
+      /* CSS code for the overlay */
+      .animate-effect::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+      }
+
+      /* CSS code for the image on hover */
+      .animate-effect:hover::before {
+        opacity: 1;
+      }
+
+      /* CSS code for the image */
+      .animate-effect img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="animate-effect">
+      <img src="C:\Users\HP\Documents\jatin_project\Project-2\img\chola bhatura.jpg">
+    </div>
+  </body>
+</html>

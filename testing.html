@@ -1,0 +1,329 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="C:\Users\HP\Documents\jatin_project\project-2\css\try.css">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.foot{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.foot {
+  display: flex;
+  background: #fffbfb;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 0vh;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+.back{
+  background: url("C:\Users\HP\Documents\jatin_project\Project-2\bg2.jpg") no-repeat center center/cover;
+  
+  z-index: -1;
+}
+
+</style>
+<body>
+  <header>
+    
+    <nav id="navbar">
+        <a id="logo">
+            <img src="https://cdn.pixabay.com/photo/2017/04/20/05/06/pizza-2244559_960_720.png" alt="MyOnlineMeal.com">
+        </a>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="C:\Users\HP\Documents\jatin_project\Project-2\api.html">RECIPES</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="back">
+  
+<h1 class="brand"   data-aos="flip-up">OUR TRUSTED BRANDS</h1>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto" >
+          <div class="flex flex-wrap -m-4">
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+               <img alt="ecommerce" class="object-cover object-center w-full h-full block"  data-aos="fade-up"  src="C:\Users\HP\Documents\jatin_project\Project-2\food ordering img\the burger club.jpg">
+              </a>
+              <div class="mt-4" >
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3><a target="_blank" href="https://www.bing.com/ck/a?!&&p=2216935448bfcbb9JmltdHM9MTY4MjU1MzYwMCZpZ3VpZD0wNzcxMmM0MC00MTFkLTY5NmMtM2RmNy0zZTlmNDAxYjY4YmMmaW5zaWQ9NTIxOA&ptn=3&hsh=3&fclid=07712c40-411d-696c-3df7-3e9f401b68bc&psq=the+burger+club&u=a1aHR0cHM6Ly90aGVidXJnZXJjbHViLmluLw&ntb=1">
+                <h2 class="text-gray-900 title-font text-lg font-medium"data-aos="fade-up-right">The BURGER CLUB</h2>
+              </a>
+                <!-- <p class="mt-1">$16.00</p> -->
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+               <img alt="ecommerce" class="object-cover object-center w-full h-full block"  data-aos="fade-up"src="C:\Users\HP\Documents\jatin_project\Project-2\food ordering img\wends.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <a target="_blank" href="https://www.bing.com/ck/a?!&&p=62804d6a6ad27409JmltdHM9MTY4MjU1MzYwMCZpZ3VpZD0wNzcxMmM0MC00MTFkLTY5NmMtM2RmNy0zZTlmNDAxYjY4YmMmaW5zaWQ9NTIyNQ&ptn=3&hsh=3&fclid=07712c40-411d-696c-3df7-3e9f401b68bc&psq=Wendy%27s&u=a1aHR0cHM6Ly93d3cud2VuZHlzLmNvbS8&ntb=1">
+                <h2 class="text-gray-900 title-font text-lg font-medium" data-aos="fade-up-right">WENDYS</h2>
+              </a>
+                <!-- <p class="mt-1">$21.15</p> -->
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+               <img alt="ecommerce" class="object-cover object-center w-full h-full block"  data-aos="fade-up"src="C:\Users\HP\Documents\jatin_project\Project-2\food ordering img\PIZZA-HUT.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <a target="_blank" href="https://www.bing.com/aclk?ld=e8YftmnaNouBmhVt8pyku0tzVUCUzTwv2oAn1lUMVEvqVUN30-Glby7-5mwakn1peVclCj65J57EjoKbeMZVJQfLgwEOrSco8rA0VeEhUbLP_GbZbOs3oZOMwru8hYInBw2Vy5c16Q1s58KUAu5OGzRdaQa0-nmk_u7Xf3AO2svubp44USImJR_e59k2jyEVIA1Ow6NA&u=aHR0cHMlM2ElMmYlMmZ3d3cucGl6emFodXQuY28uaW4lMmYlM2Z1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RpUF9EZXZ5YW5pX1NlYXJjaF9QUl9CcmFuZF9FeGFjdCUyNnV0bV9jb250ZW50JTNkQnJhbmQlMjZtc2Nsa2lkJTNkYjZjNTA0OGI2NWM0MTdmNjMzZTA2MGMxNWQzYTA1MTY&rlid=b6c5048b65c417f633e060c15d3a0516&ntb=1">
+                <h2 class="text-gray-900 title-font text-lg font-medium"data-aos="fade-up-right" >PIZZA HUT</h2>
+              </a>
+                <!-- <p class="mt-1">$12.00</p> -->
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden" data-aos="fade-up">
+                <img alt="C:\Users\HP\Documents\jatin_project\Project-2\bg9.jpg"  class="object-cover object-center w-full h-full block" src="C:\Users\HP\Documents\jatin_project\Project-2\food ordering img\bg9.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <a target="_blank"  href="https://www.bing.com/ck/a?!&&p=620005ceea8be4f7JmltdHM9MTY4MjU1MzYwMCZpZ3VpZD0wNzcxMmM0MC00MTFkLTY5NmMtM2RmNy0zZTlmNDAxYjY4YmMmaW5zaWQ9NTIxNw&ptn=3&hsh=3&fclid=07712c40-411d-696c-3df7-3e9f401b68bc&psq=mackdonald+&u=a1aHR0cHM6Ly93d3cubWNkZWxpdmVyeS5jby5pbi8&ntb=1">
+                <h2 class="text-gray-900 title-font text-lg font-medium"data-aos="fade-up-right" >MECDONALD</h2>
+              </a>
+                <!-- <p class="mt-1">$18.40</p> -->
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+               <img alt="ecommerce" class="object-cover object-center w-full h-full block"  data-aos="fade-up"src="C:\Users\HP\Documents\jatin_project\Project-2\food ordering img\kfc.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <a target="_blank" href="https://www.bing.com/ck/a?!&&p=94b706e80284cb15JmltdHM9MTY4MjU1MzYwMCZpZ3VpZD0wNzcxMmM0MC00MTFkLTY5NmMtM2RmNy0zZTlmNDAxYjY4YmMmaW5zaWQ9NTIyNw&ptn=3&hsh=3&fclid=07712c40-411d-696c-3df7-3e9f401b68bc&psq=kfc&u=a1aHR0cHM6Ly9vbmxpbmUua2ZjLmNvLmluLw&ntb=1">
+                <h2 class="text-gray-900 title-font text-lg font-medium"data-aos="fade-up-right">KFC</h2>
+              </a>
+                <!-- <p class="mt-1">$16.00</p> -->
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+               <img alt="ecommerce" class="object-cover object-center w-full h-full block"  data-aos="fade-up"src="C:\Users\HP\Documents\jatin_project\Project-2\food ordering img\bg8.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <a target="_blank" href="https://www.bing.com/ck/a?!&&p=e7ef38e3bddca23bJmltdHM9MTY4MjU1MzYwMCZpZ3VpZD0wNzcxMmM0MC00MTFkLTY5NmMtM2RmNy0zZTlmNDAxYjY4YmMmaW5zaWQ9NTIwNw&ptn=3&hsh=3&fclid=07712c40-411d-696c-3df7-3e9f401b68bc&psq=burger+king&u=a1aHR0cHM6Ly93d3cuYnVyZ2Vya2luZy5pbi8&ntb=1">
+                <h2 class="text-gray-900 title-font text-lg font-medium"data-aos="fade-up-right">BURGER KING</h2>
+              </a>
+                <!-- <p class="mt-1">$21.15</p> -->
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+               <img alt="ecommerce" class="object-cover object-center w-full h-full block"  data-aos="fade-up"src="C:\Users\HP\Documents\jatin_project\Project-2\food ordering img\dominospizza.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <a href="https://www.bing.com/ck/a?!&&p=22c3856e117caffaJmltdHM9MTY4MjQ2NzIwMCZpZ3VpZD0xYTJlNDA1YS1jMjYzLTYxM2UtMmM5YS01MWZmYzMwMjYwOTcmaW5zaWQ9NTIyOA&ptn=3&hsh=3&fclid=1a2e405a-c263-613e-2c9a-51ffc3026097&psq=burger+king&u=a1aHR0cHM6Ly93d3cuYnVyZ2Vya2luZy5pbi8&ntb=1"target="_blank"> <h2 class="text-gray-900 title-font text-lg font-medium"data-aos="fade-up-right" >DOMINOS PIZZA</h2></a>
+                
+                <!-- <p class="mt-1">$12.00</p> -->
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+               <img alt="ecommerce" class="object-cover object-center w-full h-full block"  data-aos="fade-up"src="C:\Users\HP\Documents\jatin_project\Project-2\food ordering img\biryani.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <a href="https://biryanibykilo.com/">
+              
+                <h2 class="text-gray-900 title-font text-lg font-medium"data-aos="fade-up-right">BIRYANI BY KILO</h2>
+              </a>
+                <!-- <p class="mt-1">$18.40</p> -->
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+               <img alt="ecommerce" class="object-cover object-center w-full h-full block"  data-aos="fade-up"src="C:\Users\HP\Documents\jatin_project\Project-2\food ordering img\biryani.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                <a href="https://biryanibykilo.com/">
+              
+                <h2 class="text-gray-900 title-font text-lg font-medium"data-aos="fade-up-right">BIRYANI BY KILO</h2>
+              </a>
+                <!-- <p class="mt-1">$18.40</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <html>
+      </main>
+
+<section class="foot">
+  <footer class="footer">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+
+    </ul>
+    <p>&copy;2021 Nadine Coelho | All Rights Reserved</p>
+  </footer>
+</section>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset: 150, duration: 1200,}
+    );
+  </script>
+</body>
+</html>
